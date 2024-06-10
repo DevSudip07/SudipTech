@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+nav {
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+body video {
+    display: none;
+}
+
+nav ul {
+    display: none;
+}
+
+.up-btn {
+    right: 25px;
+    bottom: 30px;
+    font-size: 30px;
+    z-index: 999;
+}
+
+section {
+    position: relative;
+    top: 120px;
+}
+
+.hero-sec {
+    overflow: hidden;
+    flex-direction: column-reverse;
+}
+
+.text-animate {
+    width: 20rem;
+}
+
+.hero-content {
+    margin: 90px 20px;
+}
+
+.btn-box {
+    width: 320px;
+}
+
+.img-hero img{
+    width: 295px;
+}
+
+.rotate-text span{
+    width: 340px;
+    height: 341.9px;
+}
+
+.rotate-text .text{
+    display: none;
+}
+
+.about-sec {
+    width: 100%;
+    margin: -280px 0px;
+}
+
+.img-about {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.about-content h2{
+    text-align: center;
+}
+
+.about-content p {
+    margin-left: 20px;
+}
+
+.res-h2 {
+    display: block;
+}
+
+.about-sec h3 {
+    display: none;
+}
+
+.about-content .btn-box {
+    justify-content: center;
+}
+
+.content-1 {
+    text-align: center;
+}
+
+.projects-sec {
+    position: relative;
+    top: 500px;
+    margin: 0px 0px;
+}
+
+.projects-sec h3 {
+    display: none;
+}
+
+.project-box {
+    width: 300px;
+    height: 350px;
+    margin: 10px 0px;
+}
+
+.project-box img {
+    width: 100%;
+    height: 290px;
+}
+
+.project-box button {
+    margin-left: 170px;
+}
+
+.skills-sec {
+    top: 600px;
+}
+
+.slide-show {
+    width: 250px;
+    margin: 40px 60px;
+}
+
+.slide-box {
+    gap: 20px;
+}
+
+.footer {
+    top: 600px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-link {
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+
+}
